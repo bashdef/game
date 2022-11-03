@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Knight</title>
+</head>
+<body>
+    <div id="canvas" oncontextmenu="return false;">
+        <div id="background">
+            <img src="img/2 Background/Day/Background.png" alt="">
+        </div>
+        <img src="img/Fullscreen.png" id="fsBtn">
+        <div id="hero-block" style="    
+            width: 128px;
+            height: 128px;
+            position: absolute;
+            overflow: hidden;
+            left: 0px;
+            bottom: 64px;">
+            <img src="img/Idle.png" alt="" id="hero-img">
+        </div>
+        <div id="jump-block">
+            <img src="img/Jump.png" alt="">
+            <div>
+            </div>
+        </div>
+        <div id="hit-block">
+            <img src="img/Attack1.png" alt="">
+            <div>
+            </div>
+        </div>
+        <p id="info"></p>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+    </style>
+    <script src="script/game.js"></script>
+</body>
+</html>

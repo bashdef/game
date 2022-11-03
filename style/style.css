@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+#hero-img {
+    width: 896px;
+    height: 128px;
+    left: 0px;
+    position: relative;
+    pointer-events: none;
+}
+
+/* #hero-block {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    bottom: 64px;
+} */
+
+#fsBtn {    
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+#canvas {
+    background-color: white;
+}
+
+#jump-block {
+    top: 0px;
+    left: 0px;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+#jump-block > img {
+    position: absolute;
+    top: -10px;
+    left: -105px;
+    width: 768px;
+    height: 128px;
+}
+
+#jump-block > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+#hit-block {
+    top: 0px;
+    right: 0px;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+#hit-block > img {
+    position: absolute;
+    top: -25px;
+    left: -110px;
+    width: 640px;
+    height: 128px;
+}
+
+#hit-block > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+#background > img {
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+    width: 100%;
+    pointer-events: none;
+}
+
+#info {
+    position: absolute;
+    left: 5px;
+    top: 100px;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    padding: 10px;
+}
